@@ -1,0 +1,473 @@
+NUTOOL_PIN.g_cfg_chips = [
+//NUC100AN BN
+{ name: "NUC100VD2AN", pkg: "LQFP100" },
+{ name: "NUC100VD3AN", pkg: "LQFP100" },
+{ name: "NUC100VE3AN", pkg: "LQFP100" },
+{ name: "NUC120VD2AN", pkg: "LQFP100" },
+{ name: "NUC120VD3AN", pkg: "LQFP100" },
+{ name: "NUC120VE3AN", pkg: "LQFP100" },
+{ name: "NUC100RD3AN", pkg: "LQFP64" },
+{ name: "NUC100RE3AN", pkg: "LQFP64" },
+{ name: "NUC100RC1BN", pkg: "LQFP64" },
+{ name: "NUC100RD1BN", pkg: "LQFP64" },
+{ name: "NUC100RD2BN", pkg: "LQFP64" },
+{ name: "NUC120RD3AN", pkg: "LQFP64" },
+{ name: "NUC120RE3AN", pkg: "LQFP64" },
+{ name: "NUC120RC1BN", pkg: "LQFP64" },
+{ name: "NUC120RD1BN", pkg: "LQFP64" },
+{ name: "NUC120RD2BN", pkg: "LQFP64" },
+{ name: "NUC100LD3AN", pkg: "LQFP48" },
+{ name: "NUC100LE3AN", pkg: "LQFP48" },
+{ name: "NUC100LC1BN", pkg: "LQFP48" },
+{ name: "NUC100LD1BN", pkg: "LQFP48" },
+{ name: "NUC100LD2BN", pkg: "LQFP48" },
+{ name: "NUC120LD3AN", pkg: "LQFP48" },
+{ name: "NUC120LE3AN", pkg: "LQFP48" },
+{ name: "NUC120LC1BN", pkg: "LQFP48" },
+{ name: "NUC120LD1BN", pkg: "LQFP48" },
+{ name: "NUC120LD2BN", pkg: "LQFP48" },
+//NUC100CN
+{ name: "NUC130VE3CN", pkg: "LQFP100" },
+{ name: "NUC140VE3CN", pkg: "LQFP100" },
+{ name: "NUC130RC1CN", pkg: "LQFP64" },
+{ name: "NUC130RD2CN", pkg: "LQFP64" },
+{ name: "NUC130RE3CN", pkg: "LQFP64" },
+{ name: "NUC140RC1CN", pkg: "LQFP64" },
+{ name: "NUC140RD2CN", pkg: "LQFP64" },
+{ name: "NUC140RE3CN", pkg: "LQFP64" },
+{ name: "NUC130LC1CN", pkg: "LQFP48" },
+{ name: "NUC130LD2CN", pkg: "LQFP48" },
+{ name: "NUC130LE3CN", pkg: "LQFP48" },
+{ name: "NUC140LC1CN", pkg: "LQFP48" },
+{ name: "NUC140LD2CN", pkg: "LQFP48" },
+{ name: "NUC140LE3CN", pkg: "LQFP48" },
+//NUC100DN
+{ name: "NUC100VD2DN", pkg: "LQFP100" },
+{ name: "NUC100VD3DN", pkg: "LQFP100" },
+{ name: "NUC100VE3DN", pkg: "LQFP100" },
+{ name: "NUC100RC1DN", pkg: "LQFP64" },
+{ name: "NUC100RD1DN", pkg: "LQFP64" },
+{ name: "NUC100RD2DN", pkg: "LQFP64" },
+{ name: "NUC100RD3DN", pkg: "LQFP64" },
+{ name: "NUC100RE3DN", pkg: "LQFP64" },
+{ name: "NUC100LC1DN", pkg: "LQFP48" },
+{ name: "NUC100LD1DN", pkg: "LQFP48" },
+{ name: "NUC100LD2DN", pkg: "LQFP48" },
+{ name: "NUC100LD3DN", pkg: "LQFP48" },
+{ name: "NUC100LE3DN", pkg: "LQFP48" },
+{ name: "NUC120VD2DN", pkg: "LQFP100" },
+{ name: "NUC120VD3DN", pkg: "LQFP100" },
+{ name: "NUC120VE3DN", pkg: "LQFP100" },
+{ name: "NUC120RC1DN", pkg: "LQFP64" },
+{ name: "NUC120RD1DN", pkg: "LQFP64" },
+{ name: "NUC120RD2DN", pkg: "LQFP64" },
+{ name: "NUC120RD3DN", pkg: "LQFP64" },
+{ name: "NUC120RE3DN", pkg: "LQFP64" },
+{ name: "NUC120LC1DN", pkg: "LQFP48" },
+{ name: "NUC120LD1DN", pkg: "LQFP48" },
+{ name: "NUC120LD2DN", pkg: "LQFP48" },
+{ name: "NUC120LD3DN", pkg: "LQFP48" },
+{ name: "NUC120LE3DN", pkg: "LQFP48" },
+//NUC131
+{ name: "NUC131SC2AE", pkg: "LQFP64" },
+{ name: "NUC131SD2AE", pkg: "LQFP64" },
+{ name: "NUC131LC2AE", pkg: "LQFP48" },
+{ name: "NUC131LD2AE", pkg: "LQFP48" },
+//NUC122AN
+{ name: "NUC122ZD2AN", pkg: "QFN33" },
+{ name: "NUC122ZC1AN", pkg: "QFN33" },
+{ name: "NUC122LD2AN", pkg: "LQFP48" },
+{ name: "NUC122LC1AN", pkg: "LQFP48" },
+{ name: "NUC122SD2AN", pkg: "LQFP64" },
+{ name: "NUC122SC1AN", pkg: "LQFP64" },
+//NUC123AN
+{ name: "NUC123ZD4AN0", pkg: "QFN33" },
+{ name: "NUC123ZC2AN1", pkg: "QFN33" },
+{ name: "NUC123LD4AN0", pkg: "LQFP48" },
+{ name: "NUC123LC2AN1", pkg: "LQFP48" },
+{ name: "NUC123SD4AN0", pkg: "LQFP64" },
+{ name: "NUC123SC2AN1", pkg: "LQFP64" },
+//NUC123AE
+{ name: "NUC123ZD4AE0", pkg: "QFN33" },
+{ name: "NUC123ZC2AE1", pkg: "QFN33" },
+{ name: "NUC123SD4AE0", pkg: "LQFP64" },
+{ name: "NUC123SC2AE1", pkg: "LQFP64" },
+{ name: "NUC123LD4AE0", pkg: "LQFP48" },
+{ name: "NUC123LC2AE1", pkg: "LQFP48" }
+];
+
+NUTOOL_PIN.g_cfg_pkgs = {
+	"QFN33": [
+	'PB.14', 'PA.11', 'PA.10', 'PB.4', 'PB.5', 'LDO', 'VDD', 'VSS',
+	'VBUS', 'VDD33', 'D-', 'D+', 'PC.3', 'PC.2', 'PC.1', 'PC.0',
+	'PC.13', 'PC.12', 'PC.11', 'PC.10', 'PC.9', 'PC.8', 'ICE_DAT', 'ICE_CK',
+	'AVDD', 'PD.1', 'PD.2', 'PD.3', 'XT1_OUT', 'XT1_IN', '/RESET', 'PVSS'
+	],
+	"LQFP64": [
+	'PB.14', 'X32O', 'X32I', 'PA.11', 'PA.10', 'PD.8', 'PD.9', 'PD.10', 'PD.11', 'PB.4',
+	'PB.5', 'PB.6', 'PB.7', 'LDO', 'VDD', 'VSS',
+	'VBUS', 'VDD33', 'D-', 'D+', 'PB.0', 'PB.1', 'PB.2', 'PB.3', 'PC.5', 'PC.4',
+	'PC.3', 'PC.2', 'PC.1', 'PC.0', 'PB.10', 'PB.9',
+	'VSS', 'PC.13', 'PC.12', 'PC.11', 'PC.10', 'VDD', 'PC.9', 'PC.8', 'PA.15', 'VSS',
+	'PA.14', 'PA.13', 'PA.12', 'ICE_DAT', 'ICE_CK', 'AVDD',
+	'PD.0', 'PD.1', 'PD.2', 'PD.3', 'PD.4', 'PD.5', 'PB.15', 'XT1_OUT', 'XT1_IN', '/RESET',
+	'VSS', 'VDD', 'PS2DAT', 'PS2CLK', 'PVSS', 'PB.8'
+	],
+	"LQFP48": [
+	'PVSS', 'X32O', 'X32I', 'PA.11', 'PA.10', 'PB.4', 'PB.5', 'PB.6', 'PB.7', 'LDO',
+	'VDD', 'VSS',
+	'VBUS', 'VDD33', 'D-', 'D+', 'PB.0', 'PB.1', 'PC.3', 'PC.2', 'PC.1', 'PC.0',
+	'PB.10', 'PB.9',
+	'PC.13', 'PC.12', 'PC.11', 'PC.10', 'PC.9', 'PC.8', 'PA.15', 'PA.14', 'PA.13', 'PA.12',
+	'ICE_DAT', 'ICE_CK',
+	'AVDD', 'PD.0', 'PD.1', 'PD.2', 'PD.3', 'PD.4', 'PD.5', 'XT1_OUT', 'XT1_IN', '/RESET',
+	'PS2DAT', 'PS2CLK'
+	]
+};
+
+NUTOOL_PIN.g_cfg_gpios = [
+{ f: ['PA.0:0'] },
+{ f: ['PA.1:0'] },
+{ f: ['PA.2:0'] },
+{ f: ['PA.3:0'] },
+{ f: ['PA.4:0'] },
+{ f: ['PA.5:0'] },
+{ f: ['PA.6:0'] },
+{ f: ['PA.7:0'] },
+{ f: ['PA.8:0'] },
+{ f: ['PA.9:0'] },
+{ f: ['PA.10:0', 'I2C1SDA:1'] },
+{ f: ['PA.11:0', 'I2C1SCL:1'] },
+{ f: ['PA.12:0', 'PWM0:1'] },
+{ f: ['PA.13:0', 'PWM1:1'] },
+{ f: ['PA.14:0', 'PWM2:1'] },
+{ f: ['PA.15:0', 'PWM3:1'] },
+
+{ f: ['PB.0:0', 'RXD0:1'] },
+{ f: ['PB.1:0', 'TXD0:1'] },
+{ f: ['PB.2:0', 'RTS0:1'] },
+{ f: ['PB.3:0', 'CTS0:1'] },
+{ f: ['PB.4:0', 'RXD1:1'] },
+{ f: ['PB.5:0', 'TXD1:1'] },
+{ f: ['PB.6:0', 'RTS1:1'] },
+{ f: ['PB.7:0', 'CTS1:1'] },
+{ f: ['PB.8:0', 'TM0:1'] },
+{ f: ['PB.9:0', 'TM1:1', 'SPISS11:3'] },
+{ f: ['PB.10:0', 'TM2:1', 'SPISS01:3'] },
+{ f: ['PB.11:0'] },
+{ f: ['PB.12:0'] },
+{ f: ['PB.13:0'] },
+{ f: ['PB.14:0', 'INT0:1'] },
+{ f: ['PB.15:0', 'INT1:1'] },
+
+{ f: ['PC.0:0', 'SPISS00:1'] },
+{ f: ['PC.1:0', 'SPICLK0:1'] },
+{ f: ['PC.2:0', 'MISO00:1'] },
+{ f: ['PC.3:0', 'MOSI00:1'] },
+{ f: ['PC.4:0'] },
+{ f: ['PC.5:0'] },
+{ f: ['PC.6:0'] },
+{ f: ['PC.7:0'] },
+{ f: ['PC.8:0', 'SPISS10:1'] },
+{ f: ['PC.9:0', 'SPICLK1:1'] },
+{ f: ['PC.10:0', 'MISO10:1'] },
+{ f: ['PC.11:0', 'MOSI10:1'] },
+{ f: ['PC.12:0'] },
+{ f: ['PC.13:0'] },
+{ f: ['PC.14:0'] },
+{ f: ['PC.15:0'] },
+
+{ f: ['PD.0:0'] },
+{ f: ['PD.1:0'] },
+{ f: ['PD.2:0'] },
+{ f: ['PD.3:0'] },
+{ f: ['PD.4:0'] },
+{ f: ['PD.5:0'] },
+{ f: ['PD.6:0'] },
+{ f: ['PD.7:0'] },
+{ f: ['PD.8:0'] },
+{ f: ['PD.9:0'] },
+{ f: ['PD.10:0'] },
+{ f: ['PD.11:0'] },
+{ f: ['PD.12:0'] },
+{ f: ['PD.13:0'] },
+{ f: ['PD.14:0'] },
+{ f: ['PD.15:0'] },
+
+{ f: ['PE.0:0'] },
+{ f: ['PE.1:0'] },
+{ f: ['PE.2:0'] },
+{ f: ['PE.3:0'] },
+{ f: ['PE.4:0'] },
+{ f: ['PE.5:0'] },
+{ f: ['PE.6:0'] },
+{ f: ['PE.7:0'] },
+{ f: ['PE.8:0'] },
+{ f: ['PE.9:0'] },
+{ f: ['PE.10:0'] },
+{ f: ['PE.11:0'] },
+{ f: ['PE.12:0'] },
+{ f: ['PE.13:0'] },
+{ f: ['PE.14:0'] },
+{ f: ['PE.15:0'] }
+];
+
+NUTOOL_PIN.g_cfg_gpiosDefines = [
+{ f: ['PA.0'] },
+{ f: ['PA.1'] },
+{ f: ['PA.2'] },
+{ f: ['PA.3'] },
+{ f: ['PA.4'] },
+{ f: ['PA.5'] },
+{ f: ['PA.6'] },
+{ f: ['PA.7'] },
+{ f: ['PA.8'] },
+{ f: ['PA.9'] },
+{ f: ['PA.10', 'I2C1SDA:SYS_GPA_MFP_PA10_I2C1_SDA@GPA_MFP'] },
+{ f: ['PA.11', 'I2C1SCL:SYS_GPA_MFP_PA11_I2C1_SCL@GPA_MFP'] },
+{ f: ['PA.12', 'PWM0:SYS_GPA_MFP_PA12_PWM0@GPA_MFP'] },
+{ f: ['PA.13', 'PWM1:SYS_GPA_MFP_PA13_PWM1@GPA_MFP'] },
+{ f: ['PA.14', 'PWM2:SYS_GPA_MFP_PA14_PWM2@GPA_MFP'] },
+{ f: ['PA.15', 'PWM3:SYS_GPA_MFP_PA15_PWM3@GPA_MFP'] },
+
+{ f: ['PB.0', 'RXD0:SYS_GPB_MFP_PB0_UART0_RXD@GPB_MFP'] },
+{ f: ['PB.1', 'TXD0:SYS_GPB_MFP_PB1_UART0_TXD@GPB_MFP'] },
+{ f: ['PB.2', 'RTS0:SYS_GPB_MFP_PB2_UART0_nRST@GPB_MFP'] },
+{ f: ['PB.3', 'CTS0:SYS_GPB_MFP_PB3_UART0_nCTS@GPB_MFP'] },
+{ f: ['PB.4', 'RXD1:SYS_GPB_MFP_PB4_UART1_RXD@GPB_MFP', 'SPISS11:SYS_GPB_MFP_PB4_SPI1_SS1@GPB_MFP/SYS_ALT_MFP_PB4_SPI1_SS1@ALT_MFP'] },
+{ f: ['PB.5', 'TXD1:SYS_GPB_MFP_PB5_UART1_TXD@GPB_MFP'] },
+{ f: ['PB.6', 'RTS1:SYS_GPB_MFP_PB6_UART1_nRTS@GPB_MFP'] },
+{ f: ['PB.7', 'CTS1:SYS_GPB_MFP_PB7_UART1_nCTS@GPB_MFP'] },
+{ f: ['PB.8', 'TM0:SYS_GPB_MFP_PB8_TM0@GPB_MFP'] },
+{ f: ['PB.9', 'TM1:SYS_GPB_MFP_PB9_TM1@GPB_MFP', 'SPISS11:SYS_GPB_MFP_PB9_SPI1_SS1@GPB_MFP/SYS_ALT_MFP_PB9_SPI1_SS1@ALT_MFP'] },
+{ f: ['PB.10', 'TM2:SYS_GPB_MFP_PB10_TM2@GPB_MFP', 'SPISS01:SYS_GPB_MFP_PB10_SPI0_SS1@GPB_MFP/SYS_ALT_MFP_PB10_SPI0_SS1@ALT_MFP'] },
+{ f: ['PB.11'] },
+{ f: ['PB.12'] },
+{ f: ['PB.13'] },
+{ f: ['PB.14', 'INT0:SYS_GPB_MFP_PB14_INT0@GPB_MFP'] },
+{ f: ['PB.15', 'INT1:SYS_GPB_MFP_PB15_INT1@GPB_MFP'] },
+
+{ f: ['PC.0', 'SPISS00:SYS_GPC_MFP_PC0_SPI0_SS0@GPC_MFP'] },
+{ f: ['PC.1', 'SPICLK0:SYS_GPC_MFP_PC1_SPI0_CLK@GPC_MFP'] },
+{ f: ['PC.2', 'MISO00:SYS_GPC_MFP_PC2_SPI0_MISO0@GPC_MFP'] },
+{ f: ['PC.3', 'MOSI00:SYS_GPC_MFP_PC3_SPI0_MOSI0@GPC_MFP'] },
+{ f: ['PC.4'] },
+{ f: ['PC.5'] },
+{ f: ['PC.6'] },
+{ f: ['PC.7'] },
+{ f: ['PC.8', 'SPISS10:SYS_GPC_MFP_PC8_SPI1_SS0@GPC_MFP'] },
+{ f: ['PC.9', 'SPICLK1:SYS_GPC_MFP_PC9_SPI1_CLK@GPC_MFP'] },
+{ f: ['PC.10', 'MISO10:SYS_GPC_MFP_PC10_SPI1_MISO0@GPC_MFP'] },
+{ f: ['PC.11', 'MOSI10:SYS_GPC_MFP_PC11_SPI1_MOSI0@GPC_MFP'] },
+{ f: ['PC.12'] },
+{ f: ['PC.13'] },
+{ f: ['PC.14'] },
+{ f: ['PC.15'] },
+
+{ f: ['PD.0'] },
+{ f: ['PD.1', 'SPISS01:SYS_GPD_MFP_PD1_SPI0_SS1@GPD_MFP'] },
+{ f: ['PD.2'] },
+{ f: ['PD.3'] },
+{ f: ['PD.4'] },
+{ f: ['PD.5'] },
+{ f: ['PD.6'] },
+{ f: ['PD.7'] },
+{ f: ['PD.8'] },
+{ f: ['PD.9'] },
+{ f: ['PD.10'] },
+{ f: ['PD.11'] },
+{ f: ['PD.12'] },
+{ f: ['PD.13'] },
+{ f: ['PD.14'] },
+{ f: ['PD.15'] }
+];
+
+NUTOOL_PIN.g_cfg_gpiosDescriptions = [
+'AVDD:Power supply for internal analog circuit',
+
+'CTS0:Clear to Send input pin for UART0',
+'CTS1:Clear to Send input pin for UART1',
+
+'D-:USB Differential Signal D-',
+'D+:USB Differential Signal D+',
+
+'I2C1SCL:I2C1 clock pin',
+'I2C1SDA:I2C1 data input/output pin',
+
+'ICE_CK:Serial Wired Debugger Clock pin',
+'ICE_DAT:Serial Wired Debugger Data pin',
+
+'INT0:External interrupt1 input pin',
+'INT1:External interrupt 1 input pin',
+
+'LDO:LDO output pin',
+
+'MISO00:SPI0 MISO (Master In, Slave Out) pin',
+'MISO10:SPI1 MISO (Master In, Slave Out) pin',
+'MOSI00:SPI0 MOSI (Master Out, Slave In) pin',
+'MOSI10:SPI1 MOSI (Master Out, Slave In) pin',
+
+'PS2CLK:PS/2 clock pin',
+'PS2DAT:PS/2 data pin',
+
+'PVSS:PLL Ground',
+
+'PWM0:PWM output pin',
+'PWM1:PWM output pin',
+'PWM2:PWM output pin',
+'PWM3:PWM output pin',
+
+'RESET:External reset input: Low active, set this pin low reset chip to initial state. With internal pull-up.',
+
+'RTS0:Request to Send output pin for UART0',
+'RTS1:Request to Send output pin for UART1',
+'RXD0:Data Receiver input pin for UART0',
+'RXD1:Data receiver input pin for UART1',
+
+'SPICLK0:SPI0 serial clock pin',
+'SPICLK1:SPI1 serial clock pin',
+'SPISS00:SPI0 slave select pin',
+'SPISS01:SPI0 2nd slave select pin',
+'SPISS10:SPI1 slave select pin',
+'SPISS11:SPI1 2nd slave select pin',
+
+'TM0:Timer0 external counter input',
+'TM1:Timer1 external counter input',
+'TM2:Timer2 external counter input',
+
+'TXD0:Data transmitter output pin for UART0',
+'TXD1:Data transmitter output pin for UART1',
+
+'VBUS:POWER SUPPLY: From USB Host or HUB',
+'VDD:Power supply for I/O ports and LDO source for internal PLL and digital function', 
+'VDD33:Internal Power Regulator Output 3.3 V Decoupling Pin',
+'VSS :Ground',
+
+'X32I:32.768 KHz low speed crystal input pin',
+'X32O:32.768 KHz low speed crystal output pin',
+
+'XT1_IN:Crystal input pin',
+'XT1_OUT:Crystal output pin'
+];
+
+NUTOOL_PIN.g_cfg_gpioMatrix = [
+{ f: ['PA.0'] },
+{ f: ['PA.1'] },
+{ f: ['PA.2'] },
+{ f: ['PA.3'] },
+{ f: ['PA.4'] },
+{ f: ['PA.5'] },
+{ f: ['PA.6'] },
+{ f: ['PA.7'] },
+{ f: ['PA.8'] },
+{ f: ['PA.9'] },
+{ f: ['PA.10', 'GPA_MFP[10]:0'] },
+{ f: ['PA.11', 'GPA_MFP[11]:0'] },
+{ f: ['PA.12', 'GPA_MFP[12]:0'] },
+{ f: ['PA.13', 'GPA_MFP[13]:0'] },
+{ f: ['PA.14', 'GPA_MFP[14]:0'] },
+{ f: ['PA.15', 'GPA_MFP[15]:0', 'ALT_MFP[9]:1'] },
+
+{ f: ['PB.0', 'GPB_MFP[0]:0'] },
+{ f: ['PB.1', 'GPB_MFP[1]:0'] },
+{ f: ['PB.2', 'GPB_MFP[2]:0'] },
+{ f: ['PB.3', 'GPB_MFP[3]:0'] },
+{ f: ['PB.4', 'GPB_MFP[4]:0', 'ALT_MFP[15]:1'] },
+{ f: ['PB.5', 'GPB_MFP[5]:0'] },
+{ f: ['PB.6', 'GPB_MFP[6]:0'] },
+{ f: ['PB.7', 'GPB_MFP[7]:0'] },
+{ f: ['PB.8', 'GPB_MFP[8]:0'] },
+{ f: ['PB.9', 'GPB_MFP[9]:0', 'ALT_MFP[1]:1'] },
+{ f: ['PB.10', 'GPB_MFP[10]:0', 'ALT_MFP[0]:1'] },
+{ f: ['PB.11'] },
+{ f: ['PB.12'] },
+{ f: ['PB.13'] },
+{ f: ['PB.14', 'GPB_MFP[14]:0', 'ALT_MFP[3]:1'] },
+{ f: ['PB.15', 'GPB_MFP[15]:0'] },
+
+{ f: ['PC.0', 'GPC_MFP[0]:0', 'ALT_MFP[5]:1'] },
+{ f: ['PC.1', 'GPC_MFP[1]:0', 'ALT_MFP[6]:1'] },
+{ f: ['PC.2', 'GPC_MFP[2]:0', 'ALT_MFP[7]:1'] },
+{ f: ['PC.3', 'GPC_MFP[3]:0', 'ALT_MFP[8]:1'] },
+{ f: ['PC.4'] },
+{ f: ['PC.5'] },
+{ f: ['PC.6'] },
+{ f: ['PC.7'] },
+{ f: ['PC.8', 'GPC_MFP[8]:0'] },
+{ f: ['PC.9', 'GPC_MFP[9]:0'] },
+{ f: ['PC.10', 'GPC_MFP[10]:0', 'ALT_MFP[18]:1'] },
+{ f: ['PC.11', 'GPC_MFP[11]:0', 'ALT_MFP[19]:1'] },
+{ f: ['PC.12'] },
+{ f: ['PC.13'] },
+{ f: ['PC.14'] },
+{ f: ['PC.15'] },
+
+{ f: ['PD.0'] },
+{ f: ['PD.1', 'GPD_MFP[1]:0'] },
+{ f: ['PD.2'] },
+{ f: ['PD.3'] },
+{ f: ['PD.4'] },
+{ f: ['PD.5'] },
+{ f: ['PD.6'] },
+{ f: ['PD.7'] },
+{ f: ['PD.8'] },
+{ f: ['PD.9'] },
+{ f: ['PD.10'] },
+{ f: ['PD.11'] },
+{ f: ['PD.12'] },
+{ f: ['PD.13'] },
+{ f: ['PD.14'] },
+{ f: ['PD.15'] },
+
+{ f: ['PE.0'] },
+{ f: ['PE.1'] },
+{ f: ['PE.2'] },
+{ f: ['PE.3'] },
+{ f: ['PE.4'] },
+{ f: ['PE.5'] },
+{ f: ['PE.6'] },
+{ f: ['PE.7'] },
+{ f: ['PE.8'] },
+{ f: ['PE.9'] },
+{ f: ['PE.10'] },
+{ f: ['PE.11'] },
+{ f: ['PE.12'] },
+{ f: ['PE.13'] },
+{ f: ['PE.14'] },
+{ f: ['PE.15'] },
+
+{ f: ['PF.0'] },
+{ f: ['PF.1'] },
+{ f: ['PF.2', 'GPF_MFP[2]:0'] },
+{ f: ['PF.3', 'GPF_MFP[3]:0'] }
+];
+
+NUTOOL_PIN.g_cfg_shareBits = [];
+NUTOOL_PIN.g_cfg_addGPIO = {
+	"NUC122ZD2AN(QFN33)": {
+		"PB.4": ['SPISS11:3'],
+		"PD.1": ['SPISS01:1']
+	},
+	"NUC122ZC1AN(QFN33)": function () {
+		return this["NUC122ZD2AN(QFN33)"];
+	},
+};
+
+NUTOOL_PIN.g_cfg_unusedGPIO = {};
+
+NUTOOL_PIN.decidepackageNumber = function (given_partNumber_package) {
+	var partNumber_package;
+
+	if (typeof given_partNumber_package === 'undefined') {
+		partNumber_package = NUTOOL_PIN.getg_partNumber_package();
+	}
+	else {
+		partNumber_package = given_partNumber_package;
+	}
+
+	NUTOOL_PIN.g_packageNumber = partNumber_package.substring(partNumber_package.indexOf('(') + 1);
+	NUTOOL_PIN.g_packageNumber = NUTOOL_PIN.g_packageNumber.substring(0, NUTOOL_PIN.g_packageNumber.indexOf(')'));
+	NUTOOL_PIN.g_packageNumberIndex = NUTOOL_PIN.g_packageNumber;
+
+	partNumber_package = null;
+};

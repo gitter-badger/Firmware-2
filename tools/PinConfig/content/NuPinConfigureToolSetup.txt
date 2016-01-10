@@ -1,0 +1,4 @@
+Please do not modify this file. Otherwise, it may not be loaded successfully.
+DialogSize:X_792Y_-39
+UIlanguage:Engilsh
+DisplayTooltip:Yes

@@ -1,0 +1,10 @@
+input {outline: none;}
+
+.tooltip{
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 3;
+   color: #0C00FF;
+   background-color: #FFFA3E;
+}
